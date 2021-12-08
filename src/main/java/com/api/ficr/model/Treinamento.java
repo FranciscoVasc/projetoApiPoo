@@ -22,33 +22,45 @@ public class Treinamento {
 	public Treinamento() {
 	
 	}
-	
+
 	public Long getCodigo() {
 		return codigo;
 	}
+
 	public void setCodigo(Long codigo) {
 		this.codigo = codigo;
 	}
+
 	public String getDescricao() {
 		return descricao;
 	}
+
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
+
 	public LocalTime getHoraInicio() {
 		return horaInicio;
 	}
+
 	public void setHoraInicio(LocalTime horaInicio) {
 		this.horaInicio = horaInicio;
 	}
+
 	public LocalTime getHoraFim() {
 		return horaFim;
 	}
+
 	public void setHoraFim(LocalTime horaFim) {
 		this.horaFim = horaFim;
 	}
+
 	public String getCargaHoraria() {
 		return cargaHoraria;
+	}
+
+	public void setCargaHoraria(String cargaHoraria) {
+		this.cargaHoraria = cargaHoraria;
 	}
 
 	public int getQuantidadeDeVagas() {
@@ -58,6 +70,4 @@ public class Treinamento {
 	public void setQuantidadeDeVagas(int quantidadeDeVagas) {
 		this.quantidadeDeVagas = quantidadeDeVagas;
 	}
-	
-	
 }

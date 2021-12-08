@@ -24,7 +24,7 @@ import com.api.ficr.repositorio.EmpregadoRepositorio;
 @RequestMapping("/api")
 public class EmpregadoController {
 	
-	//Injeção de Depencia para usar o repositório.
+	//Injeção de Depencia para usar o repositório. 
 	@Autowired
 	EmpregadoRepositorio empregadoRepositorio;
 	
